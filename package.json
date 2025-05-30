@@ -4,11 +4,12 @@
   "homepage": "https://poojavelu.github.io",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "deploy": "gh-pages -b main -d build"
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.4",
