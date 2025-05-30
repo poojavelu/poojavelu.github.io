@@ -1,8 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://github.com/poojavelu/poojavelu.github.io",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
