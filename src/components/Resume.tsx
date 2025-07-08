@@ -29,7 +29,7 @@ export default function Resume() {
           <div className="space-y-6">
           <div>
               <h4 className="text-xl font-semibold text-white">
-              Software Engineer Intern – Keysha Mind Inc.
+              Software Engineer – Keysha Mind Inc.
               </h4>
               <p className="text-gray-400">May 2025 – Present · San Jose, CA</p>
               <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
@@ -43,7 +43,7 @@ export default function Resume() {
             </div>
             <div>
               <h4 className="text-xl font-semibold text-white">
-              Senior Software Developer – Cognizant Technology Solutions
+              Software Engineer – Cognizant Technology Solutions
               </h4>
               <p className="text-gray-400">Clients: Johnson & Johnson, Sanofi  |  Jul 2021 – Apr 2023 · Chennai, India</p>
               <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
