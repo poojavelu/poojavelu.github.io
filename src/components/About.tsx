@@ -59,7 +59,7 @@ export default function About() {
             <span className="text-orange-400 font-semibold">
               Software Engineer
             </span>{" "}
-            with 6 years of experience in {" "}
+            with 6+ years of experience in {" "}
             <strong>Full Stack Development</strong>, with a strong focus on
             {" "}
             <strong>frontend technologies </strong> 
@@ -87,15 +87,16 @@ export default function About() {
                 ⚡ Full Stack Web Development (.NET, Node.js, JavaScript, TypeScript)
               </li>
               <li>
-              🎯 Frontend Development (Angular, React, HTML5, CSS3)
+              🎯 Frontend Development (Angular, React, Next.js, HTML5, CSS3)
               </li>
               <li>
               🎨 UI/UX Implementation & Responsive Design
               </li>
-              <li>🔗 RESTful API Integration & Microservices Architecture</li>
+              <li>🔗 RESTful API & GraphQL Integration & Microservices Architecture</li>
               <li>🚀 Scalable and High-Performance Web Applications</li>
               <li>🤝 Agile Development & Team Collaboration</li>
-              <li>🗄️ Database Management (MongoDB, SQL Server, Neo4j)</li>
+              <li>🗄️ Database Management (MongoDB, SQL Server, Neo4j, MySQL, Cassandra)</li>
+              <li>☁️ Cloud Deployments (AWS, Azure)</li>
             </ul>
           </motion.div>
 
