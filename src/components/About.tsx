@@ -82,19 +82,16 @@ export default function About() {
             </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
-                ⚡ Full Stack Web Development (.NET, Node.js, JavaScript, TypeScript)
+                ⚡ Full Stack Web Development (Angular, React, Next.js, .NET Core, Node.js, JavaScript, TypeScript)
               </li>
               <li>
-              🎯 Frontend Development (Angular, React, Next.js, HTML5, CSS3)
+              🎯 Frontend Development & Responsive UI/UX (HTML5, CSS3, Tailwind, Bootstrap, Figma)
               </li>
-              <li>
-              🎨 UI/UX Implementation & Responsive Design
-              </li>
-              <li>🔗 RESTful API & GraphQL Integration & Microservices Architecture</li>
+              <li>🔗 RESTful API & GraphQL Integration, Microservices Architecture, Kafka, NGINX</li>
               <li>🚀 Scalable and High-Performance Web Applications</li>
-              <li>🤝 Agile Development & Team Collaboration</li>
+              <li>🤝 Agile Development & Team Collaboration & Mentoring</li>
               <li>🗄️ Database Management (MongoDB, SQL Server, Neo4j, MySQL, Cassandra)</li>
-              <li>☁️ Cloud Deployments (AWS, Azure)</li>
+              <li>☁️ Cloud Deployments & DevOps (AWS, Azure, Docker, CI/CD)</li>
             </ul>
           </motion.div>
 
