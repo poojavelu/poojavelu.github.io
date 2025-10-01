@@ -60,14 +60,12 @@ export default function About() {
               Software Engineer
             </span>{" "}
             with 6+ years of experience in {" "}
-            <strong>Full Stack Development</strong>, with a strong focus on
+            <strong>Full Stack Development</strong>, building
             {" "}
-            <strong>frontend technologies </strong> 
-             like
+            <strong>Angular & React frontends, .NET Core & Node.js backends, </strong> 
+             and working with 
             {" "}
-            <strong> Angular </strong>
-            and {" "}
-            <strong>React</strong>. 
+            <strong> SQL/MongoDB databases and cloud deployments on AWS & Azure. </strong>
             I’m passionate about building responsive, user-centric web applications with clean, high-performance code.
           </motion.p>
 
