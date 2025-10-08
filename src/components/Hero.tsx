@@ -41,7 +41,7 @@ export default function Hero() {
         </p>
 
         <p className="text-lg text-gray-300 drop-shadow-md mt-2">
-        Software Engineer @ Keysha Mind Inc | Master’s Student @ SJSU | Sunnyvale, California
+        Master’s Student @ San Jose State University | Sunnyvale, California
         </p>
 
         {/* 🚀 Call to Action Button (Smaller Width & Centered Below) */}
