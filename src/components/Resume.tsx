@@ -186,7 +186,7 @@ export default function Resume() {
           <div className="space-y-4">
             <div>
               <h4 className="text-xl font-semibold text-white">
-                Master’s in Engineering (Specialization: Computer Science and Computer Engineering)
+                Master’s in Computer Science and Engineering
               </h4>
               <p className="text-gray-400">
                 San Jose State University | GPA: 3.8/4.0
