@@ -29,15 +29,15 @@ export default function Resume() {
           <div className="space-y-6">
           <div>
               <h4 className="text-xl font-semibold text-white">
-              Software Engineer – Keysha Mind Inc.
+              Software Engineer Intern – Keysha Mind Inc.
               </h4>
-              <p className="text-gray-400">May 2025 – Present · San Jose, CA</p>
+              <p className="text-gray-400">May 2025 – Aug 2025 · Sunnyvale, CA</p>
               <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
                 <li>
-                Assisting in full stack development tasks using React, Node.js, and TypeScript.
+                Developed the Book a Meeting feature from scratch using Next.js, React.js, Node.js, Figma and integrating backend APIs. 
                 </li>
                 <li>
-                Contributing to bug fixes, UI enhancements, and feature rollouts across multiple sprints.
+                Revamped UI components, optimized backend processes, and integrated AI services to enhance user experience.
                 </li>
               </ul>
             </div>
