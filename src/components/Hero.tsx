@@ -37,11 +37,11 @@ export default function Hero() {
           Hi, {"I'm"} <span className="text-orange-400">Pooja Veluchamy</span>
         </h1>
         <p className="text-lg text-gray-300 drop-shadow-md mt-2">
-          Software Engineer | Full Stack Developer | Frontend Specialist
+          Software Engineer | Full Stack Developer | Frontend Specialist | Mobile Engineer
         </p>
 
         <p className="text-lg text-gray-300 drop-shadow-md mt-2">
-        Master’s Student @ San Jose State University | Sunnyvale, California
+        Master of Science in Computer Science and Engineering from San José State University,  | Sunnyvale, California
         </p>
 
         {/* 🚀 Call to Action Button (Smaller Width & Centered Below) */}
