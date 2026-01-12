@@ -18,17 +18,21 @@ export default function Hero() {
 
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
-      {/* 🔵 Background Gradient */}
-      {/* <motion.div
-        className="absolute inset-0 bg-gradient-to-b from-blue-900 via-gray-900 to-black"
+      {/* �️ Background Image */}
+      <motion.div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/graduation-bg.jpg')" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-      /> */}
+      />
+      
+      {/* 🔵 Overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/40" />
 
       {/* 🎯 Heading & Subtitle (Your Profile Info) */}
       <motion.div
-        className="absolute top-[13rem] w-auto z-10 text-center"
+        className="absolute top-[20rem] w-auto z-10 text-center"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
