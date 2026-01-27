@@ -82,7 +82,7 @@ export default function About() {
             </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
-                ⚡ Full Stack Web Development (Angular, React, Next.js, .NET Core, Node.js, JavaScript, TypeScript)
+                ⚡ Full Stack Web Development (Angular, React, Next.js, .NET Core, Node.js, Express.js, JavaScript, TypeScript)
               </li>
               <li>
               🎯 Frontend Development & Responsive UI/UX (HTML5, CSS3, Tailwind, Bootstrap, Figma)

@@ -32,20 +32,20 @@ export default function Hero() {
 
       {/* 🎯 Heading & Subtitle (Your Profile Info) */}
       <motion.div
-        className="absolute top-[20rem] w-auto z-10 text-center"
+        className="absolute top-[20rem] w-auto z-10 text-center px-4"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg">
+        <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.8)' }}>
           Hi, {"I'm"} <span className="text-orange-400">Pooja Veluchamy</span>
         </h1>
-        <p className="text-lg text-gray-300 drop-shadow-md mt-2">
+        <p className="text-xl text-white drop-shadow-2xl mt-4 font-medium" style={{ textShadow: '0 3px 15px rgba(0,0,0,0.9), 0 2px 6px rgba(0,0,0,0.7)' }}>
           Software Engineer | Full Stack Developer | Frontend Specialist | Mobile Engineer
         </p>
 
-        <p className="text-lg text-gray-300 drop-shadow-md mt-2">
-        Master of Science in Computer Science and Engineering from San José State University,  | Sunnyvale, California
+        <p className="text-lg text-white drop-shadow-2xl mt-2 font-medium" style={{ textShadow: '0 3px 15px rgba(0,0,0,0.9), 0 2px 6px rgba(0,0,0,0.7)' }}>
+        MS in Computer Science and Engineering from San José State University,  | Sunnyvale, CA
         </p>
 
         {/* 🚀 Call to Action Button (Smaller Width & Centered Below) */}

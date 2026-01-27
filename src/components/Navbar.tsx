@@ -51,7 +51,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo (Takes user to Home) */}
-        <Link href="#home" className="text-2xl font-bold text-orange-400">
+        <Link href="#home" className="text-2xl font-bold text-orange-400 drop-shadow-lg" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.8)' }}>
           {"Pooja's"} Portfolio
         </Link>
 
@@ -61,11 +61,12 @@ export default function Navbar() {
             <Link
               key={section}
               href={`#${section}`}
-              className={`text-lg transition-all duration-300 ${
+              className={`text-lg font-medium transition-all duration-300 drop-shadow-lg ${
                 activeSection === section
-                  ? "text-orange-400 font-semibold"
+                  ? "text-orange-400 font-bold"
                   : "text-white hover:text-orange-400"
               }`}
+              style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
             </Link>
@@ -76,7 +77,8 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-white text-2xl"
+            className="text-white text-2xl drop-shadow-lg"
+            style={{ filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.8))' }}
           >
             {menuOpen ? <FiX /> : <FiMenu />}
           </button>
