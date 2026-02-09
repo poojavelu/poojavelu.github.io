@@ -11,7 +11,7 @@ export default function About() {
     >
       {/* 💬 Content */}
       <motion.div
-        className="max-w-7xl w-full flex flex-col md:flex-row items-center gap-12 p-12 bg-white/5 backdrop-blur-md shadow-lg rounded-3xl border border-white/20"
+        className="max-w-7xl w-full flex flex-col md:flex-row items-center gap-10 p-6 bg-white/5 backdrop-blur-md shadow-lg rounded-3xl border border-white/20"
         initial="hidden"
         whileInView="visible"
         transition={{ staggerChildren: 0.3 }}
@@ -80,18 +80,28 @@ export default function About() {
             <h3 className="text-2xl font-semibold text-orange-400 mb-3">
               Specialties
             </h3>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
+            <ul className="list-none text-gray-300 space-y-2">
               <li>
-                ⚡ Full Stack Web Development (Angular, React, Next.js, .NET Core, Node.js, Express.js, JavaScript, TypeScript)
+                ⚡ <strong>Frontend:</strong> Angular, React.js, Next.js, SAP Storefront (Spartacus), React Native, TypeScript, JavaScript, HTML5, CSS3
               </li>
               <li>
-              🎯 Frontend Development & Responsive UI/UX (HTML5, CSS3, Tailwind, Bootstrap, Figma)
+                🚀 <strong>State & Performance:</strong> RxJS, NgRx, Redux, Context API, Lazy Loading, Server-Side Rendering (SSR), Micro-Frontends
               </li>
-              <li>🔗 RESTful API & GraphQL Integration, Microservices Architecture, Kafka, NGINX</li>
-              <li>🚀 Scalable and High-Performance Web Applications</li>
-              <li>🤝 Agile Development & Team Collaboration & Mentoring</li>
-              <li>🗄️ Database Management (MongoDB, SQL Server, Neo4j, MySQL, Cassandra)</li>
-              <li>☁️ Cloud Deployments & DevOps (AWS, Azure, Docker, CI/CD)</li>
+              <li>
+                🔗 <strong>Backend & Databases:</strong> C# (.NET Core), Node.js, Express.js, GraphQL, RESTful APIs, Microservices, MySQL, MongoDB
+              </li>
+              <li>
+                🤖 <strong>AI & Data Engineering:</strong> OpenAI Integration, Prompt Engineering, RAG, Python (Pandas, NumPy, Scikit-learn, TensorFlow)
+              </li>
+              <li>
+                ☁️ <strong>Build & DevOps:</strong> Docker, CI/CD (GitHub Actions, Azure DevOps), AWS (S3, EC2), Webpack, Vite, Kafka, NGINX
+              </li>
+              <li>
+                🧪 <strong>Testing & Quality:</strong> Jasmine, Karma, Jest, Cypress, SonarLint, SonarQube
+              </li>
+              <li>
+                🛠️ <strong>Tools & Methodologies:</strong> Git, Jira, Figma, Agile/Scrum, WCAG 2.2 (Accessibility), SEO Optimization
+              </li>
             </ul>
           </motion.div>
 
